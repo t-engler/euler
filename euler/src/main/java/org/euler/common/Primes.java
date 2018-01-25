@@ -3,7 +3,7 @@ package org.euler.common;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class PrimeFactorizer {
+public class Primes {
 
 	public static Map<Integer, Integer> factorizeInteger(int i) {
 		int currentVal = i;
@@ -20,6 +20,21 @@ public class PrimeFactorizer {
 			}
 		}
 		return primeFactorsMap;
+	}
+	
+	public static boolean isNumberPrime(long potentialPrime) {
+		if (potentialPrime < 2) {
+			return false;
+		}
+
+		long ceiling = Math.round(Math.sqrt(potentialPrime));
+
+		for (long i = 2; i <= ceiling; i++) {
+			if ((potentialPrime % i) == 0) {
+				return false;
+			}
+		}
+		return true;
 	}
 
 }
