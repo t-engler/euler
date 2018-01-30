@@ -1,7 +1,7 @@
 package org.euler.common;
 
 public class Numbers {
-	
+
 	public static boolean isNumberPalindrome(Integer potentialPrime) {
 		char[] numberAsArray = potentialPrime.toString().toCharArray();
 
@@ -12,6 +12,20 @@ public class Numbers {
 		}
 
 		return true;
+	}
+
+	public static long calculateProductOfDigits(String number) {
+		if (number.contains("0")) {
+			return 0;
+		}
+
+		long result = 1;
+
+		for (char c : number.toCharArray()) {
+			result *= Long.parseLong(String.valueOf(c));
+		}
+
+		return result;
 	}
 
 }
