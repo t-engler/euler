@@ -1,7 +1,6 @@
 package org.euler.common;
 
 public class Numbers {
-
 	public static boolean isNumberPalindrome(Integer potentialPrime) {
 		char[] numberAsArray = potentialPrime.toString().toCharArray();
 
@@ -27,5 +26,4 @@ public class Numbers {
 
 		return result;
 	}
-
 }

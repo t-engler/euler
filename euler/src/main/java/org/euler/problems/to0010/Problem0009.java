@@ -1,4 +1,4 @@
-package org.euler.problems;
+package org.euler.problems.to0010;
 
 /**
  * A Pythagorean triplet is a set of three natural numbers, a < b < c, for
@@ -12,7 +12,7 @@ package org.euler.problems;
  * @author User
  *
  */
-public class Problem9Main {
+public class Problem0009 {
 
 	public static void main(String[] args) {
 		int result = 0;

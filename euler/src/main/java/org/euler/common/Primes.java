@@ -6,7 +6,6 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class Primes {
-
 	public static Map<Integer, Integer> factorizeInteger(int i) {
 		int currentVal = i;
 		int currentDiv = 2;
@@ -62,16 +61,16 @@ public class Primes {
 		}
 		return nextPrime;
 	}
-	
+
 	public static Long[] generateArrayOfPrimesBelowBound(long bound) {
 		List<Long> primeList = new ArrayList<Long>();
 		long currentPrime = 2;
-		
-		while(currentPrime < bound) {
+
+		while (currentPrime < bound) {
 			primeList.add(currentPrime);
 			currentPrime = generateNextPrime(currentPrime);
 		}
-		
+
 		return primeList.toArray(new Long[primeList.size()]);
 	}
 }

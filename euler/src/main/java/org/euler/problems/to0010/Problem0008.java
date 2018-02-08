@@ -1,4 +1,4 @@
-package org.euler.problems;
+package org.euler.problems.to0010;
 
 import org.euler.common.Numbers;
 
@@ -33,7 +33,7 @@ import org.euler.common.Numbers;
  * @author User
  *
  */
-public class Problem8Main {
+public class Problem0008 {
 
 	public static void main(String[] args) {
 		int position = 0;

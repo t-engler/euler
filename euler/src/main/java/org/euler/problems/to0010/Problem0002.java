@@ -1,4 +1,4 @@
-package org.euler.problems;
+package org.euler.problems.to0010;
 
 import org.euler.common.Sequences;
 
@@ -10,7 +10,7 @@ import org.euler.common.Sequences;
  * @author User
  *
  */
-public class Problem2Main {
+public class Problem0002 {
 
 	public static void main(String[] args) {
 		long result = 0;

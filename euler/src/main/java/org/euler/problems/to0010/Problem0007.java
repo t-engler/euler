@@ -1,4 +1,4 @@
-package org.euler.problems;
+package org.euler.problems.to0010;
 
 import org.euler.common.Primes;
 
@@ -11,7 +11,7 @@ import org.euler.common.Primes;
  * @author User
  *
  */
-public class Problem7Main {
+public class Problem0007 {
 
 	public static void main(String[] args) {
 		long result = 0;

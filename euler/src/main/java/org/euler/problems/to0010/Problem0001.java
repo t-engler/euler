@@ -1,4 +1,4 @@
-package org.euler.problems;
+package org.euler.problems.to0010;
 
 import java.util.Set;
 import java.util.TreeSet;
@@ -15,7 +15,7 @@ import java.util.TreeSet;
  * @author User
  *
  */
-public class Problem1Main {
+public class Problem0001 {
 
 	public static void main(String[] args) {
 		Set<Integer> setOfNumbers = new TreeSet<Integer>();

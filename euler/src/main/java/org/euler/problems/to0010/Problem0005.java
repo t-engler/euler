@@ -1,4 +1,4 @@
-package org.euler.problems;
+package org.euler.problems.to0010;
 
 import java.util.Map;
 import java.util.Map.Entry;
@@ -16,7 +16,7 @@ import org.euler.common.Primes;
  * @author User
  *
  */
-public class Problem5Main {
+public class Problem0005 {
 
 	public static void main(String[] args) {
 		int upperLimit = 20;
